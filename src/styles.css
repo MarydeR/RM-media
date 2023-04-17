@@ -41,3 +41,10 @@ h3 {
   aspect-ratio: 16/9;
   border-radius: 15px;
 }
+
+@media (max-width: 800px) {
+  .grid1,
+  .grid2 {
+    grid-template-columns: 1fr;
+  }
+}
