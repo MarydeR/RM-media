@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+h1 h2,
+h3 {
+  color: #231d3c;
+}
+
+.logo {
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+}
+
+.grid1,
+.grid2 {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.grid1 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid2 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.embeds {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 15px;
+}
